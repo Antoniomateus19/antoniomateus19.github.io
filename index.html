@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Journey</title>
+<meta name="description" content="The Journey: an endless space shooter. Fly through asteroid fields, upgrade your ship, beat the flagships and climb the world leaderboard.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Exo+2:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<header class="top">
+  <a class="brand" href="index.html"><img src="icon.png" alt=""><span>THE JOURNEY</span></a>
+  <nav class="lang" aria-label="Language">
+    <button data-set="en">EN</button><button data-set="fr">FR</button><button data-set="pt">PT</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <img class="icon" src="icon.png" alt="The Journey icon">
+    <h1>THE JOURNEY</h1>
+    <div class="tag" data-lang="en">Endless space flight</div>
+    <div class="tag" data-lang="fr">Vol spatial sans fin</div>
+    <div class="tag" data-lang="pt">Voo espacial sem fim</div>
+    <p class="lead" data-lang="en">Fly through endless asteroid fields, dodge giant rocks, blast enemy ships and upgrade your starship. Every mission ends with an enemy flagship, and every round gets harder. How far can you go?</p>
+    <p class="lead" data-lang="fr">Traversez des champs d'astéroïdes sans fin, esquivez les rochers géants, détruisez les vaisseaux ennemis et améliorez votre vaisseau. Chaque mission se termine par un vaisseau amiral ennemi, et chaque tour est plus difficile. Jusqu'où irez-vous ?</p>
+    <p class="lead" data-lang="pt">Voa por campos de asteroides sem fim, desvia-te de rochas gigantes, destrói naves inimigas e melhora a tua nave. Cada missão termina com uma nave-almirante inimiga, e cada volta é mais difícil. Até onde consegues ir?</p>
+    <a class="cta" data-store href="#">
+      <span data-lang="en">GET IT ON GOOGLE PLAY</span><span data-lang="fr">DISPONIBLE SUR GOOGLE PLAY</span><span data-lang="pt">DISPONÍVEL NO GOOGLE PLAY</span>
+    </a>
+    <span class="soon" data-soon>
+      <span data-lang="en">Coming soon</span><span data-lang="fr">Bientôt disponible</span><span data-lang="pt">Brevemente</span>
+    </span>
+  </section>
+
+  <section class="grid">
+    <div class="frame">
+      <h3 data-lang="en">Fly</h3><h3 data-lang="fr">Pilotez</h3><h3 data-lang="pt">Pilota</h3>
+      <p data-lang="en">Drag to steer, hold to boost, double-tap to dive under a rock, swipe up to climb over it.</p>
+      <p data-lang="fr">Glissez pour diriger, restez appuyé pour le turbo, touchez deux fois pour plonger sous un rocher, glissez vers le haut pour passer au-dessus.</p>
+      <p data-lang="pt">Arrasta para dirigir, mantém premido para o turbo, toca duas vezes para mergulhar sob uma rocha, desliza para cima para passar por cima.</p>
+    </div>
+    <div class="frame">
+      <h3 data-lang="en">Upgrade</h3><h3 data-lang="fr">Évoluez</h3><h3 data-lang="pt">Melhora</h3>
+      <p data-lang="en">Break asteroids and enemies to fill the upgrade bar. Each level brings a bigger ship and more guns.</p>
+      <p data-lang="fr">Détruisez astéroïdes et ennemis pour remplir la barre d'évolution. Chaque niveau apporte un vaisseau plus grand et plus de canons.</p>
+      <p data-lang="pt">Destrói asteroides e inimigos para encher a barra de melhoria. Cada nível traz uma nave maior e mais armas.</p>
+    </div>
+    <div class="frame">
+      <h3 data-lang="en">Compete</h3><h3 data-lang="fr">Affrontez le monde</h3><h3 data-lang="pt">Compete</h3>
+      <p data-lang="en">Choose your pilot name and country and climb the world leaderboard. No email, no password.</p>
+      <p data-lang="fr">Choisissez votre nom de pilote et votre pays, et grimpez au classement mondial. Pas d'e-mail, pas de mot de passe.</p>
+      <p data-lang="pt">Escolhe o teu nome de piloto e país e sobe no ranking mundial. Sem e-mail, sem palavra-passe.</p>
+    </div>
+  </section>
+
+  <section class="frame">
+    <h2 data-lang="en">Help and privacy</h2><h2 data-lang="fr">Aide et confidentialité</h2><h2 data-lang="pt">Ajuda e privacidade</h2>
+    <p>
+      <a href="privacy.html"><span data-lang="en">Privacy policy</span><span data-lang="fr">Politique de confidentialité</span><span data-lang="pt">Política de privacidade</span></a>
+      &nbsp;·&nbsp;
+      <a href="delete-account.html"><span data-lang="en">Delete your account</span><span data-lang="fr">Supprimer votre compte</span><span data-lang="pt">Eliminar a tua conta</span></a>
+      &nbsp;·&nbsp;
+      <span data-lang="en">Contact:</span><span data-lang="fr">Contact :</span><span data-lang="pt">Contacto:</span> <a data-contact href="#"></a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <span>© <span data-year></span> The Journey</span>
+  <a href="privacy.html"><span data-lang="en">Privacy</span><span data-lang="fr">Confidentialité</span><span data-lang="pt">Privacidade</span></a>
+  <a href="delete-account.html"><span data-lang="en">Delete account</span><span data-lang="fr">Supprimer le compte</span><span data-lang="pt">Eliminar conta</span></a>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
