@@ -1,7 +1,7 @@
 // The Journey: website. Language switch (EN / FR / PT), contact address, moving stars.
 
 // ---- Set these two before publishing the site. ----
-const CONTACT_EMAIL = "antonio.mateus199@gmail.com";   // the public address players can write to
+const CONTACT_EMAIL = "ulualiquioluali@gmail.com";   // the public address players can write to
 const PLAY_STORE_URL = "";               // the Google Play link, once the game is published
 
 (function () {
